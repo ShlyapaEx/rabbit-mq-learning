@@ -4,7 +4,7 @@ import pika
 from pika.spec import PERSISTENT_DELIVERY_MODE
 
 
-# Случайная генерация сообщений
+# Генерация сообщений
 messages_count = int(sys.argv[1])
 messages = []
 
